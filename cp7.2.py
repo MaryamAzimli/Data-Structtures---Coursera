@@ -9,7 +9,7 @@ try:
     fh = open(fname)
 except:
     print('File cannot be open: ', fname) """
-fh= open(r"C:\\Users\\Maryam Azimli\Desktop\\Coursera\\Python\\Data Structures\\cp7 assignments\\mbox-short.txt")
+fh= open(r"C:\\mbox-short.txt")
 count=0
 toplama=0
 for line in fh:
