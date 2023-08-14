@@ -12,7 +12,7 @@ You can download the sample data at http://www.py4e.com/code3/mbox-short.txt
 if len(fname) < 1:
     fname = "mbox-short.txt"
  """
-fh = open(r"C:\\Users\\Maryam Azimli\Desktop\\Coursera\\Python\\Data Structures\\cp7 assignments\\mbox-short.txt")
+fh = open(r"C:\\mbox-short.txt")
 count = 0
 for line in fh:
     if line.startswith('From:'):
