@@ -7,7 +7,7 @@ try:
 except:
     print('File cannot be open: ', fname)
     quit() """
-fh =open(r"C:\\Users\\Maryam Azimli\Desktop\\Coursera\\Python\\Data Structures\\cp8 assignments\\romeo.txt")
+fh =open(r"C:\\romeo.txt")
 lst = list()
 for line in fh:
     v=line.split()
