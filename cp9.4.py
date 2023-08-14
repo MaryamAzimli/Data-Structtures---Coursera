@@ -9,7 +9,7 @@ if len(name) < 1:
 handle = open(name)
  """
 
-handle= open(r"C:\\Users\\Maryam Azimli\Desktop\\Coursera\\Python\\Data Structures\\cp7 assignments\\mbox-short.txt")
+handle= open(r"C:\mbox-short.txt")
 dict=dict()
 
 for lines in handle:
