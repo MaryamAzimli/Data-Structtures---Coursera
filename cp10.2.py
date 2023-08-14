@@ -6,7 +6,7 @@ Once you have accumulated the counts for each hour, print out the counts, sorted
 if len(name) < 1:
     name = "mbox-short.txt" """
 
-handle = open(r"C:\\Users\\Maryam Azimli\Desktop\\Coursera\\Python\\Data Structures\\cp7 assignments\\mbox-short.txt")
+handle = open(r"C:\\mbox-short.txt")
 dics=dict()
 for lines in handle:
     if lines.startswith('From '):
